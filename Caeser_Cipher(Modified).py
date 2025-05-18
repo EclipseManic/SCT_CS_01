@@ -18,4 +18,5 @@ elif choice == '2':
     print("Decrypt :-",decrypt(result,shift))  
 elif choice == '3':
     print("Thanks for using this program")
-    
+    elif choice is not '1' or '2' or '3' :#This condition checks if the user has entered an invalid choice
+    print("Invalid choice")
