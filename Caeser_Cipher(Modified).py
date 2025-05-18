@@ -15,7 +15,7 @@ if choice == '1' :
 elif choice == '2':
     result = input("Enter the string u want to decrypt :- ")
     shift = int(input("Enter the numeber of jump u want to (0-94) :-"))
-    print("Decrypt :- ",decrypt(result,shift))  
+    print("Decrypt :-",decrypt(result,shift))  
 elif choice == '3':
     print("Thanks for using this program")
     
